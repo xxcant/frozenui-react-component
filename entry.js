@@ -3,7 +3,11 @@ import ReactDOM from 'react-dom'
 
 import Button from './component/Button.jsx'
 
+function btnCall(){
+	alert('test')
+}
+
 ReactDOM.render(
-	<Button className="ui-btn">普通按钮</Button>,
+	<Button handler={btnCall} className="ui-btn-s" disabled>普通按钮</Button>,
 	document.getElementById('Button')
 )
