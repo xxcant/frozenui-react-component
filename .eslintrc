@@ -1,0 +1,50 @@
+---
+extends: eslint:recommended
+
+ecmaFeatures:
+  modules: true
+  sourceType: "module"
+  jsx: true
+
+parserOptions:
+  sourceType: "module"
+  ecmaFeatures: 
+    jsx: true
+    experimentalObjectRestSpread: true
+
+env:
+  es6: true
+  browser: true
+  node: true
+  amd: true
+  mocha: true
+
+parser: "babel-eslint",
+
+plugins: ["react"]
+
+rules:
+
+  # 具体规则参照 http://eslint.org/demo/
+
+  no-var: 2
+
+  no-unused-vars: 0
+
+  no-with: 2
+
+  no-eval: 2
+
+  no-console: 0
+
+  no-mixed-spaces-and-tabs: 0
+
+  accessor-pairs: 2
+
+  block-scoped-var: 2
+
+  eqeqeq: [2, "allow-null"]
+
+  spaced-comment: [2, "always"]
+
+  camelcase: 2
