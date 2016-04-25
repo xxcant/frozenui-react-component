@@ -38,7 +38,7 @@ $ npm test
 // test single component
 $ t=[name] npm test
 ```
-> you also mocha command 
+> you can also use mocha command 
 > e.g `mocha --compilers Button.test.js:babel-core/register`
 
 
