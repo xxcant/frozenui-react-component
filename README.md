@@ -58,6 +58,7 @@ $ npm start
 ### create new test script
 1. create new test script in `__TEST__`
 2. this script file name like `[name].test.js`
+
 > `chai-enzyme` don't support concatenation style
 
 ### test your component
