@@ -13,8 +13,37 @@ $ npm start
 ```
 ### create new component
 
-* you may create new component in `/component/`
-* you also edit `__TOOLS__/demo_app.js` , add code use your component when develop
+* create new component in `/components/`
+* you also create new file is named `demo_[name]` in `__TOOLS__` and edit `__TOOLS__/demo_app.jsx` when developing
+		
+		// e.g demo_button.jsx
+		export default class DemoButton extends Component{
+			render(){
+				return (
+					<ul id="button">
+						<li className="demo-box">
+							<span className="tips">普通小按钮</span>
+							<div className="component">
+								{/* component */}
+							</div>
+						</li>
+					</ul>
+				)
+			}
+		}
+		// e.g demo_app.jsx
+		import DemoButton from './demo_button.jsx'
+		export default class App extends Component{
+			render(){
+				return (
+					<div className="ui-whitespace">
+						<DemoButton></DemoButton>
+						{/* other component group */}
+					</div>
+				)
+			}
+		}
+
 * open `http://localhost:3000` the browser
 
 ## test

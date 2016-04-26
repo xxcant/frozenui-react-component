@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 
-import Button from '../components/Button'
+import DemoButton from './demo_button.jsx'
 
 export default class App extends Component{
 	render(){
 		return (
-			<div id="wrap" className="wrap">
-				<div className="demo-box"><Button>按钮</Button></div>
+			<div className="ui-whitespace">
+				<DemoButton></DemoButton>
+				{/* other component */}
 			</div>
 		)
 	}

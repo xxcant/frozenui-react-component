@@ -6,10 +6,10 @@ import React, { Component } from 'react'
  * @param {[String]} className [button styles classname]
  */
 
-export default class Button extends Component{
+export default class ButtonProgress extends Component{
 
 	static defaultProps = {
-		className: 'ui-btn'
+		className: 'ui-btn ui-btn-progress'
 	}
 	static propTypes = {
 		children: React.PropTypes.node.isRequired
