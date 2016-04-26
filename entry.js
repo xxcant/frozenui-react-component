@@ -7,7 +7,8 @@ function btnCall(){
 	alert('test')
 }
 
+
 ReactDOM.render(
-	<Button handler={btnCall} className="ui-btn-s" disabled>普通按钮</Button>,
+	<Button className="ui-btn-s" onClick={btnCall}>普通按钮</Button>,
 	document.getElementById('Button')
 )
