@@ -14,7 +14,7 @@ $ npm start
 ### create new component
 
 * you may create new component in `/component/`
-* you also edit `index.html & entry.js` , add code use your component when develop
+* you also edit `__TOOLS__/demo_app.js` , add code use your component when develop
 * open `http://localhost:3000` the browser
 
 ## test

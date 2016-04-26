@@ -5,7 +5,7 @@ import chai, {expect} from 'chai'
 
 chai.use(ChaiEnzyme())
 
-import Button from '../component/Button'
+import Button from '../components/Button'
 
 
 describe('<Button />', () => {
