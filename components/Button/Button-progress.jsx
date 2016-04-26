@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 /**
  * [Button]
- * @param  {[String]} children [button text]
+ * @param  {[Node]} children [children elem node & isRequired]
  * @param {[String]} className [button styles classname]
  */
 
