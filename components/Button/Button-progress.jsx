@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, PropTypes } from 'react'
 
 /**
  * [Button]
@@ -12,7 +12,7 @@ export default class ButtonProgress extends Component{
 		className: 'ui-btn ui-btn-progress'
 	}
 	static propTypes = {
-		children: React.PropTypes.node.isRequired
+		children: PropTypes.node.isRequired
 	}
 
 	render(){

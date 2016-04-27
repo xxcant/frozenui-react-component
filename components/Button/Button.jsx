@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, PropTypes } from 'react'
 
 /**
  * [Button]
@@ -12,7 +12,7 @@ export default class Button extends Component{
 		className: 'ui-btn'
 	}
 	static propTypes = {
-		children: React.PropTypes.node.isRequired
+		children: PropTypes.node.isRequired
 	}
 
 	render(){
