@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-import Button from '../components/Button'
-import ButtonProgress from '../components/Button/Button-progress.jsx'
+import Button, { ButtonProgress } from '../components/Button'
 
 export default class DemoButton extends Component{
 	render(){

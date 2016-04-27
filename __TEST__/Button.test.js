@@ -5,8 +5,7 @@ import chai, {expect} from 'chai'
 
 chai.use(ChaiEnzyme())
 
-import Button from '../components/Button'
-import ButtonProgress from '../components/Button/Button-progress.jsx'
+import Button, { ButtonProgress } from '../components/Button'
 
 
 describe('<Button />', () => {

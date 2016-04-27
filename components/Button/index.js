@@ -1,1 +1,2 @@
-export default from './Button.jsx';
+export default from './Button.jsx'
+export ButtonProgress from './Button-progress.jsx'
